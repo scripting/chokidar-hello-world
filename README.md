@@ -6,9 +6,11 @@ A simple hello world app for <a href="https://github.com/paulmillr/chokidar">cho
 
 To run the Hello World app:
 
-1. Download the folder from the repo. 
+1. <a href="https://github.com/scripting/chokidar-hello-world/archive/master.zip">Download</a> the folder from the repo. 
 
-2. Launch the Terminal app, `cd` to the helloworld folder, type `npm install`.
+2. Unzip the folder. Create a sub-folder called <i>watch.</i> 
+
+2. Launch the Terminal app, `cd` to the app folder, type `npm install`.
 
 3. Type `node hello.js` to run the app.
 
