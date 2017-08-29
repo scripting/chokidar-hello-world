@@ -1,0 +1,9 @@
+{
+	"name": "chokidarHelloWorld",
+	"description": "Hello World for the chokidar package.",
+	"author": "Dave Winer <dave@smallpicture.com>",
+	"main": "hello.js",
+	"dependencies" : {
+		"chokidar": "*"
+		}
+	}
