@@ -22,3 +22,9 @@ Note that when you add a file, you'll also get a <i>change</i> event. And <i>del
 
 I was able to create some useful tools with chokidar, and I wanted to give back by making it easier for other people to get started with it. 
 
+### Udates
+
+#### v0.4.1 -- 9/2/17 by DW
+
+Added new option,<i> awaitWriteFinish,</i> with a value of true.  This setting matters when the user is copying large files into the watched folder. This way you only get the change event when the file has finished copying. <a href="https://github.com/paulmillr/chokidar#performance">Chokidar</a> does this by polling to see if the file size changed, so this will make Chokidar slower. The other option is processing files before they're fully there.
+
